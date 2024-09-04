@@ -1,0 +1,11 @@
+name = "LeanMlir"
+defaultTargets = ["LeanMlir"]
+
+[[require]]
+name = "SSA"
+git = "https://github.com/opencompl/lean-mlir"
+rev = "main"
+
+[[lean_lib]]
+name = "LeanMlir"
+
