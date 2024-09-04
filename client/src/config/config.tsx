@@ -2,19 +2,13 @@ import { LeanWebConfig } from './docs' // look here for documentation of the ind
 
 const lean4webConfig : LeanWebConfig = {
   "projects": [
-    { "folder": "mathlib-demo",
-      "name": "Latest Mathlib",
+    { "folder": "lean-mlir",
+      "name": "Lean-MLIR",
       "examples": [
-        { "file": "MathlibLatest/Bijection.lean",
-          "name": "Bijection" },
-        { "file": "MathlibLatest/Logic.lean",
-          "name": "Logic" },
-        { "file": "MathlibLatest/Ring.lean",
-          "name": "Ring" },
-        { "file": "MathlibLatest/Rational.lean",
-          "name": "Rational" }]},
-    { "folder": "stable",
-      "name": "Stable Lean" }
+        { "file": "LeanMlir/Basic.lean", "name": "Basic Example" },
+        { "file": "LeanMlir/HackersDelight.lean", "name": "Hacker's Delight" }
+      ]
+    }
   ],
   "serverCountry": null,
   "contactDetails": null,

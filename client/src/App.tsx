@@ -48,7 +48,7 @@ function App() {
 
   // the user data
   const [code, setCode] = useState<string>('')
-  const [project, setProject] = useState<string>('mathlib-demo')
+  const [project, setProject] = useState<string>('lean-mlir')
   const [url, setUrl] = useState<string | null>(null)
   const [codeFromUrl, setCodeFromUrl] = useState<string>('')
 
@@ -289,7 +289,7 @@ function App() {
   useEffect(() => {
     if (!editor) { return }
 
-    let _project = (project == 'mathlib-demo' ? null : project)
+    let _project = (project == 'lean-mlir' ? null : project)
     let args: {
       project: string | null
       url: string | null
