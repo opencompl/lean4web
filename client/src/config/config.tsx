@@ -5,7 +5,11 @@ const lean4webConfig : LeanWebConfig = {
     { "folder": "lean-mlir",
       "name": "Lean-MLIR",
       "examples": [
-        { "file": "LeanMlir/Basic.lean", "name": "Basic Example" },
+        { "file": ".lake/packages/SSA/SSA/Projects/PaperExamples/PaperExamples.lean", "name": "Toy Semantics+Examples" },
+        { "file": "SSA/SSA/Projects/FullyHomomorphicEncryption/Basic.lean", "name": "FHE emantics" },
+        { "file": "SSA/SSA/Projects/Scf/ScfFunctor.lean", "name": "Scf Semantics" },
+        { "file": "SSA/SSA/Projects/InstCombine/PaperExamples.lean", "name": "InstCombine Examples" },
+        { "file": "LeanMlir/Basic.lean", "name": "Toy Rewrite Examples" },
         { "file": "LeanMlir/HackersDelight.lean", "name": "Hacker's Delight" }
       ]
     }
