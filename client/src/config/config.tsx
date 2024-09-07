@@ -7,6 +7,7 @@ const lean4webConfig : LeanWebConfig = {
       "examples": [
         { "file": ".lake/packages/SSA/SSA/Projects/InstCombine/HackersDelight/DeMorgan.lean", "name": "Hacker's Delight - De Morgan" },
         { "file": ".lake/packages/SSA/SSA/Projects/InstCombine/HackersDelight/AdditionAndLogicalOps.lean", "name": "Hacker's Delight - Addition And Logical Ops" },
+        { "file": ".lake/packages/SSA/SSA/Projects/InstCombine/AliveStatements.lean", "name": "LLVM Rewrites" },
         { "file": ".lake/packages/SSA/SSA/Projects/PaperExamples/PaperExamples.lean", "name": "Toy Semantics+Examples" },
         { "file": ".lake/packages/SSA/SSA/Projects/FullyHomomorphicEncryption/Basic.lean", "name": "FHE emantics" },
         { "file": ".lake/packages/SSA/SSA/Projects/Scf/ScfFunctor.lean", "name": "Scf Semantics" },
