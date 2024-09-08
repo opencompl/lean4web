@@ -15,6 +15,8 @@ cd $(dirname $0)
 # 
 # # note: mathlib has now a post-update hook that modifies the `lean-toolchain`
 # # and calls `lake exe cache get`.
+lake exe cache get
+lake build
 # 
 # lake update -R
 # lake build
