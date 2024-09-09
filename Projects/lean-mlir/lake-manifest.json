@@ -115,7 +115,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "9379ce69352031e4f1a4e5c112e41ed3db57e1dc",
+   "rev": "913960079e8cf79470fb18f99053d04ad153e170",
    "name": "SSA",
    "manifestFile": "lake-manifest.json",
    "inputRev": "main",
